@@ -14,6 +14,7 @@
         android:weightSum="2">
 
         <TextView
+            android:id="@+id/cc_container"
             android:layout_width="match_parent"
             android:layout_height="40dp"
             android:layout_weight="1"
@@ -21,6 +22,7 @@
             android:text="cc" />
 
         <TextView
+            android:id="@+id/paypal_container"
             android:layout_width="match_parent"
             android:layout_height="40dp"
             android:layout_weight="1"
@@ -30,6 +32,7 @@
     </LinearLayout>
 
     <android.support.v7.widget.RecyclerView
+        android:id="@+id/rv"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@id/option_container" />
